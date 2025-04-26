@@ -1,0 +1,27 @@
+{
+  "name": "Flowlynk-cursor-terminal-demo",
+  "version": "1.0.0",
+  "description": "This is a demo of Flowlynk Cursor Terminal (npm i flowlynk)",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts interactive",
+    "dev": "nodemon src/index.ts interactive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "flowlynk": "^1.9.0"
+  }
+}
